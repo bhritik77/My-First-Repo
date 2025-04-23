@@ -1,0 +1,33 @@
+a{
+    color: red;
+}
+h2{
+    color: rgb(239, 235, 247);
+    background-color: rgb(34, 27, 23);
+}
+nav > p:nth-of-type(1){
+    color: red;
+}
+a[href]{
+    color: red;
+    text-decoration: none;
+}
+a[href].active{
+    color: rgb(23, 22, 22);
+    text-decoration: underline;
+}
+a[target="_self"]{
+    background-color: rgb(43, 208, 226);
+}
+nav > p:last-of-type::after{
+    content: "...";
+}
+
+ul li::marker{
+    color: rgb(0, 255, 162);
+}
+
+nav > p:nth-of-type(2)::first-letter{
+    color: red;
+    font-size: 30px;
+}

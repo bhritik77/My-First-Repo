@@ -1,0 +1,18 @@
+p{   /* tag selector */
+    font-size: larger;
+    color: blueviolet;
+}
+div{
+    font-size: medium;
+    color: coral;
+}    
+.text{   /* class selector*/
+    color: brown;
+}
+#lol{ /* id selector */
+    color: crimson;
+}
+
+*{  /* universal selector */
+    background-color: rgb(195, 255, 0);
+}
