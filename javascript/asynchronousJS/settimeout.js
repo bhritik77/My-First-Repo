@@ -1,0 +1,10 @@
+setTimeout(function(){
+    console.log("hello10");
+},10);
+setTimeout(function(){
+    console.log("hello");
+},3000);
+setTimeout(function(){
+    console.log("hello5");
+},5);
+console.log("ritik!")
